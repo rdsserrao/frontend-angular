@@ -6,4 +6,4 @@ Criar o contentor -> C:\Users\Ricardo\Desktop\Cloud\C4PS\Criar API num Container
 
 Ir a um browser e colocar o URL (endpoint) http://localhost:8082, para ver a API a funcionar.
 
-Neste caso só irá mostrar as palavras Livros e Movies.
+Neste caso só irá mostrar as palavras Livros e Filmes.
