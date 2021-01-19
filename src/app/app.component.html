@@ -1,0 +1,14 @@
+
+<h2>Livros</h2>
+<dl *ngFor="let livro of livros">
+  <dt>{{livro.title}}</dt>
+  <dd>Ano: {{livro.year}}</dd>
+  <dd>Autor: {{livro.author}}</dd>
+</dl>
+
+<h2>Filmes</h2>
+<dl *ngFor="let filme of filmes">
+  <dt>{{filme.title}}</dt>
+  <dd>Ano: {{filme.year}}</dd>
+  <dd>Diretor {{filme.director}}</dd>
+</dl>

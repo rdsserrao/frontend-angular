@@ -1,0 +1,9 @@
+Linha de comandos na pasta onde está o Dockerfile:
+
+Montar a imagem -> C:\Users\Ricardo\Desktop\Cloud\C4PS\Criar API num Container\frontend-angular> docker build -t frontend .
+
+Criar o contentor -> C:\Users\Ricardo\Desktop\Cloud\C4PS\Criar API num Container\frontend-angular> docker run -p 8082:80 -d --name front frontend:latest
+
+Ir a um browser e colocar o URL (endpoint) http://localhost:8082, para ver a API a funcionar.
+
+Neste caso só irá mostrar as palavras Livros e Movies.
